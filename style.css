@@ -113,7 +113,6 @@
 }
 .head{
     font-size:30px;
-    margin-left: 42%;
     margin-top: 10px;
     margin-bottom: 10px;
     position: absolute;
@@ -121,4 +120,32 @@
     font-family: arial;
     font-weight: 550;
     background-color: white;
+    text-align: center;
+    margin-left: 42%;
+
 }
+.container1 {
+    text-align: center;
+    position:relative;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    
+  }
+
+
+  .head {
+    font-size: 24px;
+    color: black  ;
+    vertical-align: top;
+}
+
+
+  @media (max-width: 768px) {
+    .container1 {
+        left:40%;
+        width: 100%;
+    
+    }
+  }
