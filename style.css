@@ -6,19 +6,20 @@
     font-family: Roboto;
     font-weight: 600;
     font-size: 16px;
+    background-image: url('WhatsApp Image 2024-04-21 at 13.01.31_fefb3c92.jpg');
 }
 .left{
     width:200px;
-    background-color: #88500f;
+    
 }
 .right{
     width:130px;
-    background-color: rgb(103, 103, 214);
+
 }
 .down{
     margin-top: 0;
     height:209px;
-    background-color: #db9546fa;
+   
     padding-bottom: 12px;
     padding-top: 12px;
 }
@@ -32,7 +33,7 @@
 .rtop{
     display: block;
     width: 100%;
-    background-color: red;
+
     height: 300px;
 }
 .rtop1{
@@ -43,7 +44,7 @@
 }.rtop2{
     width: 100%;
     height:33.3%;
-    background-color: pink;
+ 
 }.rtop3{
     width: 100%;
     height:33.3%;
@@ -62,11 +63,11 @@
     object-position: left;
 }
 .rtleft{
-    background-color: blue;
+
     width: 160%;
     height: 100%;
 }.rtright{
-    background-color: rgb(210, 210, 216);
+
     width: 100%;
     height: 100%;
 }
@@ -75,15 +76,15 @@
     left: 15%;
     width: 70%;
     height: 100%;
-    background-color: rgb(23, 23, 163);
+
 }
 
 .rt3l{
-    background-color: blue;
+
     width: 90%;
     height: 100%;
 }.rt3r{
-    background-color: rgb(210, 210, 216);
+
     width: 100%;
     height: 100%;
 }
@@ -102,11 +103,22 @@
 }
 .text1{
     margin-left: 6px;
-    background-color: red;
+    background-color: white;
     margin-right: 30px;
     border-top-left-radius:0;
     border-top-right-radius: 0;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 50px;
     margin-top: 1px;
+}
+.head{
+    font-size:30px;
+    margin-left: 42%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-top: 12px;
+    font-family: arial;
+    font-weight: 550;
+    background-color: white;
 }
